@@ -34,4 +34,10 @@ namespace combi2
 		return rc;
 	};
 	short xcombination::ntx(short i) { return this->sset[i]; };
-}
+	unsigned __int64 fact(unsigned __int64 x) { return(x == 0) ? 1 : (x * fact(x - 1)); };
+	unsigned __int64 xcombination::count() const
+	{
+		return (this->n >= this->m) ?
+			fact(this->n) / (fact(this->n - this->m) * fact(this->m)) : 0;
+	};
+};

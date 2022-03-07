@@ -17,3 +17,5 @@ namespace combi2
 		short ntx(short i);        // получить i-й элемент массива индексов  
 		unsigned __int64 nc;       // номер сочетания  0,..., count()-1   
 		unsigned __int64 count() const;  // вычислить количество сочетаний      
+	};
+};

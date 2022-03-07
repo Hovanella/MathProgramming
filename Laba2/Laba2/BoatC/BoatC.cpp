@@ -1,6 +1,7 @@
 ﻿// ВoatС.cpp
 #include "BoatC.h"
-#include "Combi4.h"
+
+
 namespace boatfnc
 {
 	bool compv(combi4::accomodation s, const int ming[],

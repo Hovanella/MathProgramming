@@ -1,6 +1,5 @@
 // Вoat.h
 #pragma once 
-#include "Combi2.h"
 int boat(
 	int V,         // [in]  максимальный вес груза
 	short m,       // [in]  количество мест для контейнеров     

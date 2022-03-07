@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Combi4.cpp" />
     <ClCompile Include="PlacementsGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Combi4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
