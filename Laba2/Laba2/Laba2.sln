@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlacementsGenerator", "Plac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoatC", "BoatC\BoatC.vcxproj", "{1C27402E-2F9F-48A6-8934-3D2A19142637}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variant 12", "Variant 12\Variant 12.vcxproj", "{B018995B-C1E2-4F93-BB85-9B016E80872F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{1C27402E-2F9F-48A6-8934-3D2A19142637}.Release|x64.Build.0 = Release|x64
 		{1C27402E-2F9F-48A6-8934-3D2A19142637}.Release|x86.ActiveCfg = Release|Win32
 		{1C27402E-2F9F-48A6-8934-3D2A19142637}.Release|x86.Build.0 = Release|Win32
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Debug|x64.ActiveCfg = Debug|x64
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Debug|x64.Build.0 = Debug|x64
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Debug|x86.Build.0 = Debug|Win32
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Release|x64.ActiveCfg = Release|x64
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Release|x64.Build.0 = Release|x64
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Release|x86.ActiveCfg = Release|Win32
+		{B018995B-C1E2-4F93-BB85-9B016E80872F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
