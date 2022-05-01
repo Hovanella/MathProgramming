@@ -16,11 +16,9 @@ using std::setw;
 
 void fillArrayWithRandomValues(int* weights, int sizeOfArray, int min, int max) {
 
-
 	std::srand(static_cast<unsigned int>(std::time(nullptr)));
 	for (int i = 0; i < sizeOfArray; i++)
 	{
-
 		weights[i] = min + (rand() % (max - min + 1));
 	}
 
@@ -49,6 +47,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		c,     // [in]  доход от перевозки каждого контейнера   
 		r      // [out] номера  выбранных контейнеров  
 	);
+
 
 
 	cout << endl << "-- Задача о размещении контейнеров -- ";
